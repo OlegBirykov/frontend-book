@@ -1,0 +1,27 @@
+li {
+	margin-top: 10px;	
+	font-size: 20px;
+}
+
+a {
+	border: 2px solid #ff0000;
+	color: #0000ff;
+	text-decoration:none;
+}
+
+.level1 {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.level1 > li {
+	margin-bottom: 50px;
+}
+
+.level2, .level3 {
+	text-transform: none;
+}
+
+.level3 {
+	font-weight: 400;
+}
